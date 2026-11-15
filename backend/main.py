@@ -139,3 +139,5 @@ async def analyze_resume(file: UploadFile = File(...), goal: str = Form(...)):
 
     prompt = build_prompt(goal=goal, resume_text=text)
     return run_gemini(prompt)
+
+# CareerCatalyst AI backend - final submission version

@@ -339,3 +339,5 @@ export default function App() {
     </div>
   );
 }
+
+// CareerCatalyst AI frontend - final submission version
